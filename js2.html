@@ -1,0 +1,101 @@
+<html>
+<body>
+
+<p id="demo">
+<p id="demo1">
+
+<script>
+function greaterNum(x,y) {
+    if (x > y) {
+        return "The greater number is of "+ x + "and "+ y + "is " +  x;
+    } else {
+        return "The greater number is of "+ x + "and "+ y+ "is "+ y;
+    }
+}
+document.getElementById('demo').innerHTML= greaterNum(5, 10);
+document.getElementById('demo1').innerHTML= greaterNum(12,24);
+
+</script>
+
+<p id="1"></p>
+
+<script>
+
+
+function score(x) {
+
+  if (x >0 && x<10 ) {
+
+    return "blue";
+
+  } else if (x <20 ){
+
+    return " red";
+
+  } else if (x < 30){
+
+    return "green";
+
+  } else{
+
+    return "no option";
+
+  }
+}
+  document.getElementById("1").innerHTML = score(25);
+
+
+
+</script>
+
+
+<p id="2">
+<script>
+
+
+function marks(m) {
+  if(m>75) {
+    return "A";
+  } else
+  if(m>60){
+    return "B";
+  } else
+  if(m>40){
+    return "C";
+  } else{
+    return "F" ;
+  }
+}
+  document.getElementById("2").innerHTML = marks(50);
+
+</script>
+
+<p id="3">
+  <script>
+
+
+  function score(x) {
+
+    if (x >0 && x<10 ) {
+
+      return "blue";
+
+    } else if (x <20 ){
+
+      return " red";
+
+    } else if (x < 30){
+
+      return "green";
+
+    } else{
+
+      return "no option";
+
+    }
+  }
+    document.getElementById("3").innerHTML = score(25);
+
+
+
+  </script>
